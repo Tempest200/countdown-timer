@@ -47,7 +47,7 @@ A fully functional and customizable **countdown timer** built with **React.js**,
 react-countdown-timer/
 
 ├── public/
-| |
+  |
 │ └── index.html
 |
 ├── src/

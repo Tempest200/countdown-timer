@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# ⏳ React Countdown Timer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fully functional and customizable **countdown timer** built with **React.js**, allowing users to set a future date/time and see the remaining time in days, hours, minutes, and seconds. The timer updates in real time and displays a message when the countdown ends.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Live Demo
 
-### `npm start`
+[🔗 View the Live Demo](https://Tempest200.github.io/countdown-timer)  
+> Replace this with your deployed GitHub Pages link after deployment.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🎯 Features
 
-### `npm test`
+✅ Select a future date and time using a datetime picker  
+✅ Live countdown updates every second  
+✅ Displays time left in days, hours, minutes, and seconds  
+✅ Message shown when countdown reaches zero  
+✅ Simple, responsive UI using pure CSS  
+✅ Clean, well-commented code structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧠 How It Works
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. User picks a date/time via the `datetime-local` input field.
+2. Clicking **Start** triggers `setInterval()` which:
+   - Calculates the difference between now and the target time.
+   - Converts milliseconds into days, hours, minutes, and seconds.
+   - Updates the UI every second using React state.
+3. When the timer hits zero, the countdown stops and shows `"Time's up!"`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Technologies Used
 
-### `npm run eject`
+- **React** – front-end library for building UI
+- **JavaScript** – countdown logic and state management
+- **HTML5** – semantic structure
+- **CSS3** – custom styling
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🧩 File Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+react-countdown-timer/
+├── public/
+│ └── index.html
+├── src/
+│ ├── CountdownTimer.jsx # Main countdown component with logic
+│ ├── CountdownTimer.css # Styling for the timer
+│ └── App.js # Renders the countdown component
+├── package.json
+└── README.md
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## 💻 Run Locally
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# Clone the project
+git clone https://github.com/Tempest200/countdown-timer.git
+cd countdowntimer
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Install dependencies
+npm install
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Start development server
+npm start

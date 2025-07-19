@@ -45,6 +45,7 @@ A fully functional and customizable **countdown timer** built with **React.js**,
 ## 🧩 File Structure
 
 react-countdown-timer/
+
 ├── public/
 │ └── index.html
 ├── src/
@@ -60,7 +61,7 @@ react-countdown-timer/
 ```bash
 # Clone the project
 git clone https://github.com/Tempest200/countdown-timer.git
-cd countdowntimer
+cd countdown-timer
 
 # Install dependencies
 npm install

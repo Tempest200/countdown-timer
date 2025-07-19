@@ -49,17 +49,17 @@ react-countdown-timer/
 ├── public/
 
 │ └── index.html
-|
+
 ├── src/
-| |
+
 │ ├── CountdownTimer.jsx # Main countdown component with logic
-| |
+
 │ ├── CountdownTimer.css # Styling for the timer
-| |
+
 │ └── App.js # Renders the countdown component
-|
+
 ├── package.json
-|
+
 └── README.md
 
 

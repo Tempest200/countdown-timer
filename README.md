@@ -7,7 +7,7 @@ A fully functional and customizable **countdown timer** built with **React.js**,
 ## 🚀 Live Demo
 
 [🔗 View the Live Demo](https://Tempest200.github.io/countdown-timer)  
-> Replace this with your deployed GitHub Pages link after deployment.
+
 
 ---
 
